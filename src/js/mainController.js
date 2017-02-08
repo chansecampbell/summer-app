@@ -3,4 +3,5 @@ angular.module('SummerCountdownApp')
 
 function MainController () {
     this.hello = "Hello world";
+    // this.heroImg = "./assets/hero-background.jpg";
 }

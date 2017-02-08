@@ -1,0 +1,15 @@
+body { margin: 0; padding: 0; }
+
+.main__hero-area {
+    height: 900px;
+    width: auto;
+    background: url("/assets/hero-background.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.main__body-area {
+    height: 900px;
+    width: auto;
+    background: url("/assets/body-background.jpg") no-repeat fixed;
+    background-size: cover;
+}
