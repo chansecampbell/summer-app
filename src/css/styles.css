@@ -7,9 +7,31 @@ body { margin: 0; padding: 0; }
     background-size: cover;
 }
 
+.main__hero-area::after {
+    content: '';
+    height: 900px;
+    width: auto;
+    display: block;
+    background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
+    background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
+    background: linear-gradient(#D4CA58, #FF7142) no-repeat fixed; 
+    opacity: 0.5;
+}
+
 .main__body-area {
     height: 900px;
     width: auto;
-    background: url("/assets/body-background.jpg") no-repeat fixed;
+    background: url("/assets/body-background.jpg") no-repeat;
     background-size: cover;
+}
+
+.main__body-area::after {
+    content: '';
+    height: 900px;
+    width: auto;
+    display: block;
+    background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat;
+    background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat;
+    background: linear-gradient(#D4CA58, #FF7142) no-repeat; 
+    opacity: 0.5;
 }
