@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; }
+body, html, main { margin: 0; padding: 0; height: 100%; }
 
 ul, li { list-style-type: none; }
 

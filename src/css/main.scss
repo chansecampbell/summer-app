@@ -1,77 +1,101 @@
-.main__hero {
-    height: 900px;
-    width: auto;
-    background: url("/assets/hero-background.jpg") no-repeat fixed;
+.fixed__bg {
+    min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.fixed__bg.fixed__background {
+    background-image: url("/assets/hero-background.jpg");
+}
+
+.scrolling__bg {
+    min-height: 100%;
     background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
-.main__hero--countdown {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 42px;
-    color: #FFF;
-    max-width: 800px;
-    position: absolute;
-    top: 50%;
+.scrolling__bg.scrolling__background {
+    background-image: url("/assets/body-background.jpg");
 }
 
-.main__hero::after {
-    content: '';
-    height: 900px;
-    width: auto;
-    display: block;
-    background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
-    background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
-    background: linear-gradient(#D4CA58, #FF7142) no-repeat fixed; 
-    opacity: 0.5;
-}
+// .main__hero {
+//     height: 900px;
+//     width: auto;
+//     background: url("/assets/hero-background.jpg") no-repeat fixed;
+//     background-size: cover;
+// }
 
-.main__body {
-    height: 900px;
-    width: auto;
-    background: url("/assets/body-background.jpg") no-repeat;
-    background-size: cover;
-}
+// .main__hero--countdown {
+//     text-align: center;
+//     margin: 0 auto;
+//     font-size: 42px;
+//     color: #FFF;
+//     max-width: 800px;
+//     position: absolute;
+//     top: 50%;
+// }
 
-.main__body--calculate {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 42px;
-    color: #FFF;
-    max-width: 800px;
-    position: absolute;
-    bottom: 0;
-}
+// .main__hero::after {
+//     content: '';
+//     height: 900px;
+//     width: auto;
+//     display: block;
+//     background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
+//     background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
+//     background: linear-gradient(#D4CA58, #FF7142) no-repeat fixed; 
+//     opacity: 0.5;
+// }
 
-.main__body::after {
-    content: '';
-    height: 900px;
-    width: auto;
-    display: block;
-    background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat;
-    background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat;
-    background: linear-gradient(#D4CA58, #FF7142) no-repeat; 
-    opacity: 0.5;
-}
+// .main__body {
+//     height: 900px;
+//     width: auto;
+//     background: url("/assets/body-background.jpg") no-repeat;
+//     background-size: cover;
+// }
 
-.main__body--box {
-    height: 300px;
-    width: 300px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0px;
-    right: 0px;
-    position: absolute;
-    z-index: 1;
-}
+// .main__body--calculate {
+//     text-align: center;
+//     margin: 0 auto;
+//     font-size: 42px;
+//     color: #FFF;
+//     max-width: 800px;
+//     position: absolute;
+//     bottom: 0;
+// }
 
-.main__body--box:nth-child(1),
-.main__body--box:nth-child(3) {
-    background-color: #F0F1DD;
-}
+// .main__body::after {
+//     content: '';
+//     height: 900px;
+//     width: auto;
+//     display: block;
+//     background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat;
+//     background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat;
+//     background: linear-gradient(#D4CA58, #FF7142) no-repeat; 
+//     opacity: 0.5;
+// }
 
-.main__body--box:nth-child(2),
-.main__body--box:nth-child(4) {
-    background-color: #CBBEBE;
-}
+// .main__body--box {
+//     height: 300px;
+//     width: 300px;
+//     display: inline-block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     left: 0px;
+//     right: 0px;
+//     position: absolute;
+//     z-index: 1;
+// }
+
+// .main__body--box:nth-child(1),
+// .main__body--box:nth-child(3) {
+//     background-color: #F0F1DD;
+// }
+
+// .main__body--box:nth-child(2),
+// .main__body--box:nth-child(4) {
+//     background-color: #CBBEBE;
+// }

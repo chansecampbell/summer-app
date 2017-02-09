@@ -9,21 +9,24 @@
 
 <body ng-controller="MainController as main">
 
-    <div class="main__hero"></div>
-    <div class="main__hero--countdown">{{ main.summerDaysLeft() }}</div>
+    <main>
+        <div class="fixed__bg fixed__background"></div>
+        <div class="scrolling__bg scrolling__background"></div>
+    <!--<div class="main__hero"></div>-->
+    <!--<div class="main__hero--countdown">{{ main.summerDaysLeft() }}</div>-->
 
-    <div class="main__body"></div>
+    <!--<div class="main__body"></div>-->
         <!--<div class="main__body--box"></div>
         <div class="main__body--box"></div>
         <div class="main__body--box"></div>
         <div class="main__body--box"></div>-->
-    <div class="main__body--calculate">
+    <!--<div class="main__body--calculate">
         <h3>How many months of summer have you lived through?</h3>
         <form ng-submit="main.calculateSummers()">
             <input type="text" name="age" placeholder="Your age" ng-model="main.userAge" />
             <input type="submit" value="Calculate" />
         </form>
         <h4>You have lived through {{ main.summerCount }} months of summer</h4>
-    </div>
-    
+    </div>-->
+    </main>
 </body>
