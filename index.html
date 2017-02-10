@@ -27,8 +27,8 @@
             <div class="body__content">
                 <span class="body__content--question">How many months of summer have you lived through?</span>
                 <form ng-submit="main.calculateSummers()">
-                    <input type="text" name="age" placeholder="Your age" ng-model="main.userAge" />
-                    <input type="submit" value="Calculate" />
+                    <input type="text" name="age" placeholder="Your age" ng-model="main.userAge" class="body__input input--age" />
+                    <input type="submit" value="calculate" class="body__input input--calc" />
                 </form>
                 <span class="body__content--answer">You have lived through {{ main.summerCount }} months of summer</span>
             </div>
