@@ -9,7 +9,7 @@ export default class MainController {
     }
     
     summerDaysLeft() {
-        this.oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+        this.oneDay = 24*60*60*1000;
         this.nowUntilSummerBegins = Math.round(Math.abs((this.dateNow.getTime() - this.summerBegins.getTime())/(this.oneDay)));
         this.nowUntilSummerEnds = Math.round(Math.abs((this.dateNow.getTime() - this.summerEnds.getTime())/(this.oneDay)));
 
