@@ -11,6 +11,12 @@
 
     <main>
         <div class="hero__bg hero__img">
+            <div class="hero__logo">
+                <img src="./assets/logo.png"/>
+            </div>
+            <div class="hero__facebook">
+                <img src="./assets/facebook-icon.png"/>
+            </div>
             <div class="hero__content">
                 <span class="hero__content--countdown">{{ main.summerDaysLeft() }}</span>
             </div>
@@ -25,11 +31,12 @@
 
         <div class="body__bg body__img">
             <div class="body__content">
-                <span class="body__content--question">How many months of summer have you lived through?</span>
+                <span class="body__content--question">How many months of summer <br/> have you lived through?</span>
                 <form ng-submit="main.calculateSummers()">
                     <input type="text" name="age" placeholder="Your age" ng-model="main.userAge" class="body__input input--age" />
                     <input type="submit" value="calculate" class="body__input input--calc" />
                 </form>
+                <hr />
                 <span class="body__content--answer">You have lived through {{ main.summerCount }} months of summer</span>
             </div>
 

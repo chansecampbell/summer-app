@@ -5,6 +5,11 @@ body, html, main { margin: 0; padding: 0; height: 100%; font-family: 'Nothing Yo
 
 ul, li { list-style-type: none; }
 
-input:focus::placeholder { color: #FFF; }
+::-webkit-input-placeholder { color: #FFF; }
+:-moz-placeholder { /* Firefox 18- */ color: #FFF; }
+::-moz-placeholder {  /* Firefox 19+ */ color: #FFF; }
+:-ms-input-placeholder { color: #FFF; }
+
+hr { border: 1px solid #FFF; }
 
 h1, h2, h3, h4, h5 { margin: 0; }

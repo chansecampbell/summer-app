@@ -19,6 +19,18 @@
         opacity: 0.5;
     }
 
+    .hero__logo {
+        position: absolute;
+        top: 20px; left: 20px;
+        z-index: 10;
+    }
+
+    .hero__facebook {
+        position: absolute;
+        top: 20px; right: 20px;
+        z-index: 10;
+    }
+
     .hero__content {
         margin: auto;
         position: absolute;
@@ -26,8 +38,9 @@
         z-index: 10;
         color: #FFF;
         font-size: 32px;
+        font-weight: bold;
         text-align: center;
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -42,8 +55,8 @@
     .box {
         height: 300px;
         width: 300px;
-        background: lightcoral;
         display: inline-block;
+        margin: -5px;
 
         &:nth-child(1), &:nth-child(3) {
             background-color: #F0F1DD;
@@ -82,9 +95,9 @@
         top: 40%; left: 0; bottom: 0; right: 0;
         z-index: 10;
         color: #FFF;
-        font-size: 32px;
+        font-size: 25px;
         text-align: center;
-        width: 60%;
+        width: 50%;
 
         .body__input {
             background: none;
@@ -93,7 +106,7 @@
             color: inherit;
             font-size: 20px;
             display: block;
-            margin: 10px auto;
+            margin: 20px auto;
 
             &.input--age {
                 height: 30px;
