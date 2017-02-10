@@ -1,26 +1,67 @@
-.fixed__bg {
-    min-height: 100%;
+.hero__bg {
+    min-height: 90%;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
+    position: relative;
+
+    &.hero__img { background-image: url("/assets/hero-background.jpg"); }
+
+    .hero__content {
+        margin: 0;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        color: #FFF;
+        font-size: 32px;
+    }
 }
 
-.fixed__bg.fixed__background {
-    background-image: url("/assets/hero-background.jpg");
-}
-
-.scrolling__bg {
-    min-height: 100%;
+.body__bg {
+    min-height: 90%;
     background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
+    position: relative;
+
+    &.body__img { background-image: url("/assets/body-background.jpg"); }
+
+    .body__content {
+        margin: 0;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        color: #FFF;
+        font-size: 32px;
+    }   
+
 }
 
-.scrolling__bg.scrolling__background {
-    background-image: url("/assets/body-background.jpg");
+// .fixed__bg.fixed__background::after {
+//     content: '';
+//     min-height: 900px;
+//     width: auto;
+//     display: block;
+//     background: -webkit-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
+//     background: -o-linear-gradient(#D4CA58, #FF7142) no-repeat fixed;
+//     background: linear-gradient(#D4CA58, #FF7142) no-repeat fixed; 
+//     opacity: 0.5;
+// }
+
+
+
+.box {
+    height: 300px;
+    width: 300px;
+    color: red;
+
 }
+
+
 
 // .main__hero {
 //     height: 900px;

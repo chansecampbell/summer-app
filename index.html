@@ -10,8 +10,17 @@
 <body ng-controller="MainController as main">
 
     <main>
-        <div class="fixed__bg fixed__background"></div>
-        <div class="scrolling__bg scrolling__background"></div>
+        <div class="hero__bg hero__img">
+            <div class="hero__content">
+                <span class="hero__content--countdown">{{ main.summerDaysLeft() }}</span>
+            </div>
+        </div>
+        <div class="box"></div>
+        <div class="body__bg body__img">
+            <div class="body__content">Text here..</div>
+        </div>
+
+
     <!--<div class="main__hero"></div>-->
     <!--<div class="main__hero--countdown">{{ main.summerDaysLeft() }}</div>-->
 
