@@ -1,6 +1,9 @@
 #Summer Countdown
 
-- Once the project is downloaded you will need to do the following to run it:
+- To run the project you first need to compile the JS and CSS into a dist folder by doing one of the following:
     - `npm i`
     - `npm start` (if you have webpack installed globally & a simple python server)
-    - Or else run `webpack`, `gulp sass` and a server of your choice.
+
+###OR
+
+- Run `webpack`, `gulp sass` and a server of your choice.
